@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/30095207/README.md)
-# SX Qian — Bilingual LLM Engineering Portfolio
+# Shuxin Qian — LLM Engineering Portfolio
 
 This repository powers my personal portfolio website:
 
