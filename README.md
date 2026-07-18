@@ -1,8 +1,18 @@
-# Shuxin Qian — LLM Engineering Portfolio
+# SX Qian — Bilingual LLM Engineering Portfolio
 
 This repository powers my personal portfolio website:
 
 https://sxqian-lgtm.github.io/
+
+## Portfolio PDFs
+
+- [English portfolio](portfolio-en.pdf)
+- [中文作品集](portfolio-zh.pdf)
+
+The portfolio is available in two languages:
+
+- English: `index.html`
+- 中文：`zh.html`
 
 ## Focus
 

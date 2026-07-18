@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SX Qian's bilingual LLM engineering portfolio featuring agent systems, RAG, multimodal fine-tuning, and applied AI." />
+    <title>SX Qian | LLM Engineering Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="logo" href="#top">SXQ</a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a><a href="#contact">Contact</a>
+          <a class="language-link" href="zh.html" lang="zh-CN">中文</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">LLM Engineering · Agents · Applied AI</p>
+          <h1>Building reliable LLM systems from prototype to production.</h1>
+          <p class="hero-text">Hi, I’m SX Qian. I build LLM applications, agentic workflows, retrieval systems, and evaluation-driven AI products—turning model capabilities into reliable tools people can actually use.</p>
+          <div class="hero-actions"><a class="button primary" href="#projects">View projects</a><a class="button secondary" href="portfolio-en.pdf">English PDF</a><a class="button secondary" href="portfolio-zh.pdf">中文 PDF</a><a class="button secondary" href="https://github.com/sxqian-lgtm">GitHub profile</a></div>
+        </div>
+        <aside class="hero-card" aria-label="Portfolio summary">
+          <div class="signal"></div><p class="card-label">Currently focused on</p><h2>Reliable LLM product engineering</h2>
+          <ul><li>Multi-agent systems and structured outputs</li><li>RAG and knowledge assistants</li><li>Evaluation, guardrails, and deployment</li></ul>
+        </aside>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading"><p class="eyebrow">Selected work</p><h2>Featured projects</h2><p>A focused selection spanning enterprise agents, retrieval, and multimodal fine-tuning.</p></div>
+        <div class="project-grid">
+          <article class="project-card featured-project">
+            <div class="project-topline"><span class="tag">Multi-Agent</span><span class="status">Anonymized case study</span></div>
+            <h3>Enterprise Financial Compliance Multi-Agent System</h3>
+            <p>A production-oriented workflow that transforms policy documents into structured rules, executable validators, risk analysis, and compliance reports. I worked on rule schemas, structured-output reliability, validator generation, automated evaluation, and inference concurrency experiments.</p>
+            <p class="project-note">Internal anonymized evaluation showed strong risk-detection and compliance-validation performance. Exact figures and all identifying business details are omitted.</p>
+            <ul class="project-meta"><li>Python</li><li>Pydantic</li><li>JSON Schema</li><li>AST</li><li>vLLM</li><li>Docker</li><li>LoRA / SFT</li><li>LLM Evaluation</li></ul>
+            <span class="confidential-label">High-level technical overview · No proprietary code or data</span>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span class="tag">RAG</span><span class="status">LLM system</span></div>
+            <h3>Domain-Specific RAG for Causal Inference</h3><p>A local retrieval-augmented assistant for explaining causal inference concepts and answering project-specific recommendation analysis questions.</p>
+            <ul class="project-meta"><li>Python</li><li>LangChain</li><li>FAISS</li><li>Gemini</li></ul>
+            <a href="https://github.com/sxqian-lgtm/Domain-Specific-RAG-System-for-Causal-Inference-and-Recommendation-Analysis">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span class="tag">Multimodal</span><span class="status">Fine-tuning</span></div>
+            <h3>Qwen Vision Fine-Tuning for OCR</h3><p>A PyTorch workflow for adapting a Qwen-style vision-language model to LaTeX OCR using multimodal preprocessing and LoRA-based training.</p>
+            <ul class="project-meta"><li>PyTorch</li><li>Qwen-VL</li><li>LoRA</li><li>OCR</li></ul>
+            <a href="https://github.com/sxqian-lgtm/Qwen3.5-Vision--Fine-Tuning-OCR">View on GitHub →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section split">
+        <div><p class="eyebrow">Toolkit</p><h2>Skills I bring to LLM projects</h2><p>End-to-end work across model adaptation, application architecture, reliability evaluation, and deployment.</p></div>
+        <div class="skill-cloud" aria-label="Skills"><span>Python</span><span>PyTorch</span><span>RAG</span><span>Vector Search</span><span>Agents</span><span>Structured Outputs</span><span>Pydantic</span><span>vLLM</span><span>Docker</span><span>LoRA / SFT</span><span>LLM Evaluation</span><span>GitHub</span></div>
+      </section>
+      <section id="about" class="section about"><p class="eyebrow">About</p><h2>Practical, curious, and evaluation-minded.</h2><p>I enjoy the hard part after an LLM first “works”: improving retrieval quality, output structure, tool boundaries, failure recovery, evaluation, and user experience. My work sits between AI capability and product reliability.</p></section>
+      <section id="contact" class="section contact"><div><p class="eyebrow">Contact</p><h2>Let’s connect.</h2><p>I’m open to LLM engineering and applied AI opportunities.</p></div><div class="contact-links"><a href="https://github.com/sxqian-lgtm">GitHub</a><a href="mailto:sxqian@bu.edu">Email</a></div></section>
+    </main>
+    <footer class="footer"><p>© 2026 SX Qian · <a href="zh.html" lang="zh-CN">查看中文版</a></p></footer>
+  </body>
+</html>
